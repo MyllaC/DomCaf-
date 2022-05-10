@@ -750,20 +750,13 @@ footer .social-links {
   /*=== SERVICES CAROSUEL =================================*/
 
   .item {
-    flex: none;
-
     width: 30rem;
     height: 30rem;
-
-    scroll-snap-align: start;
-
-    pointer-events: none;
   }
 
   #items-wrapper img {
     width: 90%;
     height: 100%;
-    object-fit: cover;
   }
 
   /*=== ABOUT =================================*/
