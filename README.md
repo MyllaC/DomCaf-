@@ -1,7 +1,8 @@
 DomCafe ☕
 
 
-![image](https://user-images.githubusercontent.com/92322675/167703647-b3d83560-6ef3-41ab-8a45-cab24c851eeb.png)
+![image](https://user-images.githubusercontent.com/92322675/167704922-05b301d0-64c9-4360-9f16-70c6e6f4433b.png)
+
 
 
 
@@ -17,6 +18,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse projeto é uma adaptação da aplicação DoctorCare desenvolvida durante a Trilha Origin da NLW Return by [Rocketseat](https://www.rocketseat.com.br/).
 Aqui, fiz a variação do layout para se adaptar a página de a lanchonete @domcafe.itaberai (tive autorização dos donos para criar essa página para eles) além disso mudei as imagens principais. A maior modificação do projeto inicial foi o acrescimo de um carousel de fotos depos do cardápio. Projeto com layout responsivo.
+
+![image](https://user-images.githubusercontent.com/92322675/167705001-e6e94232-7780-4929-8161-7742775e04bb.png)
 
 
 ## 🖥 Ambiente
