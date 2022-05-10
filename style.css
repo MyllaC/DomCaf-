@@ -398,7 +398,7 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
-/*=== SERVICES CAROSUEL  =================================*/
+/*=== SERVICES CAROSUEL =================================*/
 
 #items-wrapper {
   width: 100vw;
@@ -409,6 +409,10 @@ body.menu-expanded button path {
   overflow-x: auto;
 
   scroll-snap-type: x mandatory;
+
+  -webkit-overflow-scrolling: touch;
+
+  scroll-behavior: smooth;
 }
 
 .item {
@@ -418,6 +422,8 @@ body.menu-expanded button path {
   height: 40rem;
 
   scroll-snap-align: start;
+
+  pointer-events: none;
 }
 
 #items-wrapper img {
@@ -740,7 +746,7 @@ footer .social-links {
     flex-grow: 1;
   }
 
-  /*=== SERVICES CAROSUEL  =================================*/
+  /*=== SERVICES CAROSUEL =================================*/
 
   #items-wrapper {
     width: 100vw;
@@ -749,15 +755,29 @@ footer .social-links {
   #items {
     display: flex;
     overflow-x: auto;
+
+    scroll-snap-type: x mandatory;
+
+    -webkit-overflow-scrolling: touch;
+
+    scroll-behavior: smooth;
   }
 
   .item {
     flex: none;
+
+    width: 30rem;
+    height: 30rem;
+
+    scroll-snap-align: start;
+
+    pointer-events: none;
   }
 
   #items-wrapper img {
-    width: 100%;
+    width: 90%;
     height: 100%;
+    object-fit: cover;
   }
 
   /*=== ABOUT =================================*/
