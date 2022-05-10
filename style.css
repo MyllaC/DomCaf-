@@ -401,13 +401,14 @@ body.menu-expanded button path {
 /*=== SERVICES CAROSUEL =================================*/
 
 #items-wrapper {
-  width: 100vw;
+  width: 80vw;
   margin-top: 4rem;
 }
 
 #items {
   display: flex;
   overflow-x: auto;
+  overflow-y: hidden;
 
   scroll-snap-type: x mandatory;
 
